@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Search Bar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Dynamic Search Bar with JavaScript</h1>
+      <div class="search-wrapper">
+        <input type="text" id="searchInput" placeholder="Search items..." />
+        <button id="clearBtn">&times;</button>
+      </div>
+      <p
+        id="noResults"
+        style="display: none; color: red; text-align: center; margin-top: 1rem"
+      >
+        No results found
+      </p>
+      <ul id="itemList">
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Orange</li>
+        <li>Mango</li>
+        <li>Pineapple</li>
+        <li>Grapes</li>
+        <li>Strawberry</li>
+      </ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
